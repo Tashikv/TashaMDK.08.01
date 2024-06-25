@@ -1,0 +1,369 @@
+
+body {
+    background-color: rgb(220, 225, 230);
+}
+.logo {
+    background: url(../../../img/Logo.png);
+    width: 240px;
+    height: 100px;
+    background-size: cover;
+    margin: 70px auto;
+
+}
+.minilogo {
+    background: url(../../../img/Logo_copy.png);
+    width: 123px;
+    height: 51px;
+    background-size: cover;
+    margin: 20px;
+}
+.pryamoygol1 {
+    background: rgb(255, 255, 255);
+    margin: 30px 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    width: 1110px;
+    align-items: center;
+    justify-content: center;
+}
+.pryamoygol1 a {
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.poisk {
+    display: flex;
+    border: 1px solid black;
+    width: 180px;
+    height: 33px;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.poisk p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.poisk img {
+    width: 30px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo2 {
+    background: url(../../../img/Logo.png);
+    width: 211px;
+    height: 88px;
+    background-size: cover;
+    margin: 40px;
+    justify-content: left;
+}
+.photo {
+    background: url(../../../img/Photo.png);
+    background-size: cover ;
+    width: 1130px;
+    height: 450px;
+    padding: 3px;
+    margin: 30px 70px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+h1 {
+    color: rgb(215, 23, 23);
+    text-align: left;
+    margin: 40px;
+}
+h2 {
+    font-family: serif;
+    font-size:medium;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.photo p {
+    border: 1px solid black;
+    margin: 40px;
+    width: 110px;
+}
+.pryamoygol2 {
+    background: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1110px;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+}
+.photo1 {
+    background: url(../../../img/Photo1.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 30px;
+}
+
+.chasy {
+    background: url(../../../img/Clock\ Icon.png);
+    width: 12px;
+    height: 12px;
+    background-size:contain;
+}
+.photo2 {
+    background: url(../../../img/Photo2.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 30px;
+}
+.photo3 {
+    background: url(../../../img/Photo3.png);
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    margin: 30px;
+}
+.text {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+} 
+.content {
+    display: inline;
+    margin: 0px 40px;
+}
+
+.chas img{
+    width: 14px;
+    height: 13px;
+}
+.zagolovok{
+    width: 490px;
+}
+.pryamoygol3 {
+    background: url(../../../img/Photo4.png);
+    width: 1130px;
+    height: 450px;
+    background-size: cover;
+    margin: 30px 160px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right;
+}
+ /* .photo4 {
+    background: url(../../../img/);
+}  */
+.pryamoygol3 h1 {
+    color: rgb(71, 68, 68);
+    text-align: right;
+    margin: 1px 58px;
+    padding: 25px;
+}
+.p{
+    border: 1px solid black;
+    width: 130px;
+    height: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.tarelka {
+    background: url(../../../img/Photo5.png); 
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.pryamoygol4 {
+    background-color: white;
+    width: 480px;
+    height: 480px;
+    margin-top: 10px;
+}
+.linia {
+    display: flex;
+    width: 1120px;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.emmet{
+    display: flex;
+    justify-content: space-between;
+    width: 530px;
+    margin-right: 40px;
+}
+
+.tyxt{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    margin-right: 80px;
+}
+.tyxt p{
+
+}
+.tyxt h2{
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.content2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.error{
+    width: 450px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid gray;
+}
+.error p{
+    font-size: 20px;
+    font-style: oblique;
+}
+.sorry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.sorry h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-top: 150px;
+    margin-bottom: 0;
+}
+.sorry p{
+    width: 160px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    margin-top: 0;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.author{
+    width: 450px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid gray;
+}
+.author p{
+    font-size: 20px;
+    font-style: oblique;
+}
+.tety{
+    background: url(../../../img/Photo6.png);
+    width: 130px;
+    height: 130px;
+    background-size: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.karen{
+    display: flex;
+    flex-direction: column;
+}
+.karen h2{
+    font-size: 30px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.karen p{
+    width: 160px;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(92, 91, 91);
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.polosa{
+    width: 270px;
+    height: 30px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 20px;
+    border-bottom: 1px solid gray;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: left;
+}
+.about h2{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 0;
+    
+}
+.about p{
+    width: 350px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+.podpis img{
+    width: 150px;
+    height: 60px;
+    object-fit: cover;
+}
+.podpis{
+    margin-top: 0;
+    width: 350px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.padval{
+    width: 1110px;
+    height: 100px;
+    background-color: rgb(52, 49, 49);
+    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logotipik{
+    background: url(../../../img/Logo2.png);
+    width: 122px;
+    height: 50px;
+    background-size: cover;
+    margin-left: 40px;
+    
+}
+.taxt a{
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.685);
+    font-size: 12px;
+    text-decoration: none;
+}
+.taxt {
+    display: flex;
+}
+.bukva{
+    color: rgba(255, 255, 255, 0.685);
+    margin-right: 30px;
+}
+.verh{
+    display: flex;
+}

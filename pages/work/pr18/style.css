@@ -1,0 +1,45 @@
+.flex{
+    display: flex;
+    gap: 170px;
+    margin: 20px;
+}
+.kolonka p{
+    width: 450px;
+}
+.nam{
+    width: 430px;
+}
+.pochta{
+    width: 430px;
+}
+.phone{
+    width: 430px;
+}
+.text{
+    width: 430px;
+}
+.knopa{
+    width: 120px;
+    height: 33px;
+    background-color: black;
+    color: rgb(228, 232, 99);
+    position: absolute;
+    left: 345px;
+}
+.poloska{
+    width: 100px;
+    height: 15px;
+    background-color: rgb(228, 208, 75);
+}
+.z{
+    line-height: 0px;
+   
+}
+.x{
+    line-height: 0px;
+   
+}
+.z {
+padding-bottom: 10px;
+
+}

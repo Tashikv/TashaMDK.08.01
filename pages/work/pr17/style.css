@@ -1,0 +1,223 @@
+.wraper {
+    width: 646px;
+    height: 924px;
+    margin: 0 auto;
+}
+.head_telo {
+    background: url(img/8.png);
+    height: 350px;
+    background-size: cover;
+}
+.head_podtelo{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.kolonki{
+    width: 560px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chisla p{
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.673);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.info p{
+    margin-top: 0;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.715);
+    width: 150px;
+}
+.pr {
+    background-color: rgb(92, 155, 238);
+    display: flex; 
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: bold;
+    margin-left: auto;
+}
+.poloski{
+    width: 50px;
+    margin: auto ;
+    margin-top: 20px;
+    margin-right: 10px;    
+}
+.polosa {
+    background-color: rgb(90, 236, 77);
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 5px;
+}
+.ava img {
+    height: 200px;
+    width: 200px;
+    margin: 5px 25px;
+}
+.ava{
+    margin-top: 20px;
+}
+.dva img {
+    height: 50px;
+    width: 50px;
+}
+.dva{
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.content {
+    display: inline-block;
+
+}
+p {
+    width: 33%;
+}
+.content2 {
+    display: inline-block;
+}
+main{
+    height: 400px;
+    background-color: rgb(250, 215, 215);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    width: 580px;
+    height: 350px;
+    background-color: white;
+}
+.foto{
+    width: 80px;
+    height: 80px;
+    background: url(img/3.png);
+    background-size: cover;
+    margin: auto;
+    margin-left: 10px;
+}
+.name h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: normal;
+    
+}
+.name p{
+    width: 100px;
+    color: rgb(110, 110, 110);
+    margin-top: 0;
+}
+.post_shapka{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+.nastroi{
+    width: 30px;
+    height: 30px;
+    background: url(img/5.png);
+    background-size: cover;
+}
+.heart{
+    width: 22px;
+    height: 20px;
+    background: url(img/6.png);
+    background-size: cover;
+}
+.obl{
+    width: 20px;
+    height: 20px;
+    background: url(img/4.png);
+    background-size: cover;
+}
+.telo{
+    width: 500px;
+    margin: auto;
+    font-size: 25px;
+    color: rgb(110, 110, 110);
+    margin-top: 20px;
+}
+.post_main{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.like{
+    display: flex;
+    height: 30px;
+    padding: 10px;
+}
+.like p{
+    width: 100px;
+    margin-top: 0;
+    color: rgb(110, 110, 110);
+}
+.comment p{
+    width: 100px;
+    margin-top: 0;
+    color: rgb(110, 110, 110);
+}
+.comment{
+    display: flex;
+    height: 30px;
+    padding: 10px;
+}
+input{
+    width: 450px;
+    height: 40px;
+}
+form button{
+    width: 50px;
+    height: 45px;
+    background-color: rgb(0, 255, 13);
+    font-size: 25px;
+    color: white;
+    border: 0;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.linii{
+    width: 580px;
+    height: 10px;
+    background-color:  rgb(0, 255, 13);
+}
+.right button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(0, 255, 13);
+    font-size: 25px;
+    color: white;
+    border: 0;
+}
+.right p{
+    width: 140px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.right h2{
+    color: white;
+    font-size: 45px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
