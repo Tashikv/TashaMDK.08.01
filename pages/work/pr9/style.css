@@ -1,0 +1,83 @@
+.line {
+    list-style-type: none;
+}
+.line li {
+    display: inline-block;
+    border: 1px solid pink;
+    width: 20px;
+    padding: 10px;
+    margin-right:10px;
+    background-color:pink ;
+    text-align: center;
+}
+
+.links a {
+    display: block;
+    border: 1px solid blue;
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: rgb(246, 246, 248);
+    background-color: blue ;
+}
+.links {
+    list-style-type: none;
+}
+.links a:hover {
+    font-weight: bold;
+}
+
+.blocks div{
+    display: inline;
+    border: 1px solid red;
+    width: 200px;
+    padding: 15px;
+    color: black;
+    background-color: red;
+    text-align: center;
+}
+.blocks {
+    margin: 30px;
+}
+.blocks .non {
+    display: none;
+}
+.links-markers {
+    list-style-type: none;
+    margin: 30px 0;
+}
+
+.links-markers a {
+    display: list-item;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width: 200px;
+    padding: 10px;
+}
+
+.post1 .image {
+    content: url(weather-sun.jpg);
+    border: 2px dashed red;
+    float: left;
+}
+.post1{
+    background-color: #930303;
+    background-size: 30px 200px;
+    color: aliceblue;
+    margin: 10px;
+    overflow: hidden;
+}
+
+
+.post2 .image {
+    content: url(weather-sun.jpg);
+    border: 2px dashed red;
+    float: right;
+}
+.post2 {
+    background-color: #930303;
+    background-size: 30px 200px;
+    color: aliceblue;
+    margin: 10px;
+    overflow: hidden;
+}

@@ -1,0 +1,99 @@
+header{
+    background: rgb(207, 162, 243);
+    padding: 10px;
+    color: rgb(23, 92, 92);
+}
+header h1{
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+header ul li a{
+    display: block;
+    background: rgb(54, 54, 252);
+    padding: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: azure;
+}
+header ul li a:hover{
+    background: rgb(206, 107, 107);
+}
+header .logo{
+    text-align: center;
+    line-height: 100px;
+    margin: 0;
+    height: 100px;
+    width: 100px;
+    background: url("img/логотип.jpg.crdownload");
+    background-size: cover;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+section article{
+    width: 320px;
+    margin: 5px;
+}
+section article .img1{
+    width: 100%;
+    height: 350px;
+    background: url("img/косметичка.jpg");
+    background-size: cover;
+    background-position: -30px;
+    background-size: contain;
+}
+section article .img2{
+    width: 100%;
+    height: 350px;
+    background: url("img/папка\ планшет.jpg");
+    background-size: cover;
+    background-position: -30px;
+    background-size: contain;
+}
+section article .img3{
+    width: 90%;
+    height: 350px;
+    background: url("img/набор\ контейнеров.jpg");
+    background-size: cover;
+    background-position: -20px;
+    background-size: contain;
+}
+section article .img4{
+    width: 90%;
+    height: 350px;
+    background: url("img/ковш.jpg");
+    background-size: cover;
+   
+    background-size: contain;
+}
+section article .img5{
+    width: 100%;
+    height: 350px;
+    background: url("img/форма\ с\ тортом.jpg");
+    background-size: cover;
+    background-position: -35px;
+    background-size: contain;
+}
+section article .img6{
+    width: 100%;
+    height: 350px;
+    background: url("img/бокал.jpg");
+    background-size: cover;
+    
+    background-size: contain;
+}
+a{
+    color: black;
+}
+.price{
+    font-size: 30px;
+}
